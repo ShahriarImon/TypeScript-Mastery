@@ -9,7 +9,7 @@ const game = {
   name: "farCry5",
   build: 2019,
   popularity: "2019",
-  achievement: [2020, 2021, 2022, 2025, "2045"],
+  achievement: [2020, 2021, 1922, 2025, "2045"],
 };
 game.name = "PUBG";
 game.popularity = "High";
