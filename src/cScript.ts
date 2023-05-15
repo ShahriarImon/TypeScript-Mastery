@@ -1,7 +1,9 @@
-const add = (a: number, b: number) => {
-  return a + b;
+const add = (a: number, b: number, c?: string | number): string => {
+  return `${c} age ${a + b}`;
 };
-// console.log(add(45, 10));
+console.log(add(23, 10, "ratul"));
+
+let a: (number | boolean)[] = [5, 6, 7, 8, false];
 
 const game = {
   name: "farCry5",
